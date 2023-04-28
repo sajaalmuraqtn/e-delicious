@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-Delicious Restaurants.carts</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body onload="drawAllCarts()">
+  <header id="myhead">
+    <a href="./index.html"> <button class="showcarts"> show Menu</button></a>
+    <h1 class="Delicious">e-Delicious Restaurants (your carts)</h1>
+    <div id="counter"> </div>
+  </header>
+  <div class="cont">
+  <div id="cart_info">
+  <li class="sale"> <span> Name </span> | <span>Price * Quantity </span> | <span>Result</span></li>
+  <div id="cart_container">
+
+
+  </div>
+</div>
+
+</div>
+  <div id="footer1">
+    <button class="clear_carts" onclick="handleDeleteAll()"> Clear List</button>
+    <span id="TotalPrice"> Total Price : </span>
+  </div>
+
+  <script src="./cartsjava.js"></script>
+
+
+</body>
+
+</html>
